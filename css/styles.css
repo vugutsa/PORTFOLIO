@@ -1,0 +1,51 @@
+body{
+   background-color: antiquewhite;
+   margin: 0px;
+   padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../images/background1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(197, 189, 178);
+    box-shadow: 2px 2px 12px rgb(71, 67, 67);
+    padding: 0px 5%;
+    padding-right: 80px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    padding:15px;
+    text-decoration: none;
+    padding-right: 80px;
+    font-size: 18px;
+    margin-right: 20px;
+    right: 15%;
+}
+.logo{
+    font-family: 'Lobster', cursive;;
+    color: black;
+    font-size: 20px;
+}
+/* .active{
+
+} */
